@@ -18,5 +18,10 @@ public class Input {
         System.out.print("Enter any sentence:");
         Scanner sentence = new Scanner(System.in);
         sentence.nextLine();
+
+        // taking character as input
+        System.out.print("Enter any character: ");
+        Scanner character = new Scanner(System.in);
+        character.next().trim().charAt(0);
     }
 }
