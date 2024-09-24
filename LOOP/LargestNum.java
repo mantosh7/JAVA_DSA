@@ -40,4 +40,5 @@ public class LargestNum {
         int max = 0;
         System.out.println(Math.max(num3, Math.max(num1, num2)));
     }
+    
 }
